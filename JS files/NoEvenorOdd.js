@@ -1,6 +1,6 @@
-var x=9;
+var x=10;
 var y=x%2;
-if(y=0)
+if(y==0)
 {
     console.log("This number is even:",x);
 }
