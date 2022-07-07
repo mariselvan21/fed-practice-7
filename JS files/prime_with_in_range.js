@@ -1,30 +1,12 @@
-var i,x,y,z,w,v,u;
-console.log("Prime numbers",2,3,5);
+console.log("1 to 50 between prime numbers:");
 for(i=2;i<=50;i++)
 {
-    x=i%1;
-    if(x==0)
+    if((i%2 !==0)&&(i%3 !==0)&&(i%5 !==0)&&(i%7 !==0))
     {
-        y=i%i;
-        if(y==0)
-        {
-            z=i%2;
-            if(z!==0)
-            {
-                w=i%3;
-                if(w!==0)
-                {
-                    v=i%5;
-                    if(v!==0)
-                    (
-                       
-                        
-                        console.log(i)
-                        
-                    )
-                }
-            
-            }
-        }
+        console.log(i);
+    }
+    else if((i==2)||(i==3)||(i==5)||(i==7))
+    {
+        console.log(i);
     }
 }
