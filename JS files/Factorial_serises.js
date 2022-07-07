@@ -1,11 +1,11 @@
-var num,i;
+var i,j;
 console.log("Factorial series:");
-for(num=1;num<=5;num++)
+for(i=1;i<=10;i++)
 {
-    for(i=num-1;i>=1;i--)
+    var multiply=1;
+    for(j=i;j>=1;j--)
     {
-        num*=i;
+        multiply*=j;
     }
-    console.log(num);
-    
+    console.log(multiply);
 }
