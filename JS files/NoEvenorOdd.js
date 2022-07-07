@@ -1,9 +1,9 @@
-var x=10;
+var x=57;
 var y=x%2;
 if(y==0)
 {
-    console.log("This number is even:",x);
+    console.log(x+" is a even number.");
 }
 else{
-    console.log("This number is odd:",x);
+    console.log(x+" is a odd number.");
 }
