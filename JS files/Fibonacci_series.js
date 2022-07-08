@@ -1,6 +1,7 @@
-var count =prompt("Enter conunt of Fibonacci series:");
+// var count =prompt("Enter conunt of Fibonacci series:");
+var count=10;
 var n1=0,n2=1,nextdigit;
-console.log(count+" of Fibonacci series:")
+console .log(count+" of Fibonacci series:")
 for(i=1;i<=count;i++)
 {
     console.log(n1);
