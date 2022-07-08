@@ -4,12 +4,12 @@ var flag=0;
 var lastDigit;
 
 while(temp>=1)
-(
+{
     flag=flag+1;
     lastDigit=temp%10;
     temp=temp-lastDigit;
     temp=temp/10;
-)
+}
 temp=number;
 sum=0;
 while(temp>=1)
