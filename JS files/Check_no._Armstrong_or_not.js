@@ -17,13 +17,13 @@ while(temp>=1)
     lastDigit=temp%10;
     temp=temp-lastDigit;
     temp=temp/10;
-    var multiplicationValue=1;
+    /**var multiplicationValue=1;
     for(i=1;i<=flag;i++)
     {
         var multiplicationValue=multiplicationValue*lastDigit;
 
-    }
-    sum=sum+multiplicationValue;
+    }**/
+    sum=sum+(lastDigit**flag);
 
 }
 if(sum==number)
