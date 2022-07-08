@@ -1,6 +1,11 @@
-var i;
-console.log("Reverse of Numbers:");
-for(i=15;i>= 1;i--)
+var num=153;
+var temp=num;
+var lastDigit;
+console.log("Reverse of given number:")
+while(temp>=1)
 {
-    console.log(i);
+    lastDigit=temp%10;
+    temp=temp-lastDigit;
+    temp=temp/10;
+    console.log(lastDigit)
 }
