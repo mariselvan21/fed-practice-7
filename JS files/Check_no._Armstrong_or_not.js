@@ -1,4 +1,5 @@
-var number=prompt("Enter any vale:");
+//var number=prompt("Enter any vale:");
+var number=234;
 var temp=number;
 var flag=0;
 var lastDigit;
